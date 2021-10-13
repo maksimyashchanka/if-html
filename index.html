@@ -55,6 +55,7 @@
             <li>Div-блоки.</li>
         </ul>
     </li>
+</ol>
 
     <table border="1">
         <thead>
@@ -102,41 +103,60 @@
         </tfoot>
     </table>
 
-    <form action="'/'"  method="get">
+    <form action=""  method="get">
         <fieldset>
             <legend>My first form</legend>
             <div>
-                <label>
-                    Name
-                    <input type="text" name="username" placeholder="Name" required value="">
-                </label>
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="username" placeholder="Name" required value="">
+            </div>
+            <div>
+                <label for="Lemail">Email</label>
+                <input type="email" id="Lemail" name="email" required value="">
+            </div>
+            <div>
+                <label for="npassword">password</label>
+                <input type="password" id="npassword" name="password" required value="">
             </div>
 
             <div>
                 <label>
-                    email
-                    <input type="email" name="email" required value="">
+                <input type="range" min="1" max="10">
+                </label>
+            </div>
+            <p>What does HTML stand for?</p>
+            <div>
+                <input id="Hyperlinks and Text Markup Language" type="checkbox" value="Hyperlinks and Text Markup Language"><label for="Hyperlinks and Text Markup Language">Hyperlinks and Text Markup Language</label>
+            </div>
+            <div>
+                <input id="Home Tool Markup Language" type="checkbox" value="Home Tool Markup Language"><label for="Home Tool Markup Language">Home Tool Markup Language</label>
+            </div>
+            <div>
+                <input id="Home Tool Markup" type="checkbox" value="Home Tool Markup Language"><label for="Home Tool Markup">Home Tool Markup Language</label>
+            </div>
+            <p>What does HTML stand for?</p>
+            <div>
+                <label>
+                    <input type="radio">Hyper Text Translate Protocol
                 </label>
             </div>
             <div>
                 <label>
-                    password
-                    <input type="password" name="password" required value="">
+                    <input type="radio">Hyper Text Transmission Protocol
                 </label>
             </div>
-            <div><input type="range" min="1" max="10"></div>
-            <p>What does HTML stand for?</p>
-            <div><input type="checkbox">Hyperlinks and Text Markup Language</div>
-            <div><input type="checkbox">Home Tool Markup Language</div>
-            <div><input type="checkbox">Hyper Text Markup Language</div>
-            <p>What does HTML stand for?</p>
-            <div><input type="radio">Hyper Text Translate Protocol</div>
-            <div><input type="radio">Hyper Text Transmission Protocol</div>
-            <div><input type="radio">hyper Text Transfer Protocol</div>
+            <div>
+                <label>
+                    <input type="radio">Hyper Text Transfer Protocol
+                </label>
+            </div>
             <p>Comment</p>
-            <textarea name="text" placeholder="Comment" maxlength="500"></textarea>
+            <label>
+           <textarea name="text" placeholder="Comment" maxlength="500"></textarea>
+            </label>
             <div>
                 <p>What does HTML stand for?</p>
+                <label>
                 <select name="chapter">
                     <option value="Your answer">Your answer
                     <option>
@@ -145,6 +165,7 @@
                     <option value="Your answer">Your answer
                     <option>
                 </select>
+                </label>
             </div>
             <div>
                 <br>
@@ -153,6 +174,6 @@
         </fieldset>
     </form>
 
-</ol>
+
 </body>
 </html>
