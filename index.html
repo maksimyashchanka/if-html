@@ -24,35 +24,38 @@
 </p>
 <img src="img/sky-gf41445450_640.jpg" width="640" alt="Maks"/>
 <ol>
-    <li>Знакомство с Web</li>
-     <ul>
-        <li>Краткая истоия Web и что такое интернет.</li>
-        <li>Как устроен браузер и как он получает страницы по сети.</li>
-        <li>Что такое Git?</li>
-        <li>Создание первого репозитория.</li>
-        <li>О файле .gitignore.</li>
-    </ul>
-    <br>
-    <li start="2">HTML-вёрстка-первые шаги.</li>
-    <ul>
-        <li>Настройка рабочей среды.</li>
-        <li>Краткая история HTML.</li>
-        <li>Какие бывают теги и что такое атрибут.</li>
-        <li>Теги для работы с текстом.</li>
-        <li>Создание собственной страницы.</li>
-    </ul>
-    <br>
-    <li start="3">Погружение в HTML-разметку.</li>
-    <ul>
-        <li>Мето-теги.</li>
-        <li>Мнемоники.</li>
-        <li>Тег для работы с изображением.</li>
-        <li>Теги для работы со списками.</li>
-        <li>Теги для работы с таблицами.</li>
-        <li>Теги для работы с формами.</li>
-        <li>Div-блоки.</li>
-    </ul>
-    <br>
+    <li>Знакомство с Web
+        <ul>
+            <li>Краткая истоия Web и что такое интернет.</li>
+            <li>Как устроен браузер и как он получает страницы по сети.</li>
+            <li>Что такое Git?</li>
+            <li>Создание первого репозитория.</li>
+            <li>О файле .gitignore.</li>
+        </ul>
+    </li>
+
+    <li>HTML-вёрстка-первые шаги.
+        <ul>
+            <li>Настройка рабочей среды.</li>
+            <li>Краткая история HTML.</li>
+            <li>Какие бывают теги и что такое атрибут.</li>
+            <li>Теги для работы с текстом.</li>
+            <li>Создание собственной страницы.</li>
+        </ul>
+    </li>
+
+    <li>Погружение в HTML-разметку.
+        <ul>
+            <li>Мето-теги.</li>
+            <li>Мнемоники.</li>
+            <li>Тег для работы с изображением.</li>
+            <li>Теги для работы со списками.</li>
+            <li>Теги для работы с таблицами.</li>
+            <li>Теги для работы с формами.</li>
+            <li>Div-блоки.</li>
+        </ul>
+    </li>
+
     <table border="1">
         <thead>
         <tr>
@@ -78,8 +81,7 @@
 
         </tr>
         <tr>
-            <td>Rarely user</td>
-            <td></td>
+            <td colspan="2">Rarely user</td>
         </tr>
         <tr>
             <td>&lt;caption;&gt</td>
@@ -99,52 +101,55 @@
         </tr>
         </tfoot>
     </table>
-        <br>
-    <form action="" method="get">
+
+    <form action="#" method="get">
         <fieldset>
             <legend>My first form</legend>
-        <div>
-            <label>
-                <p>Name</p>
-                <input type="text" placeholder="Name"  required value="">
-        </label>
-        </div>
+            <div>
+                <label>
+                    Name
+                    <input type="text" name="userneme" placeholder="Name" required value="">
+                </label>
+            </div>
 
-       <div>
-           <label>
-            <p>email</p>
-            <input type="email" required value="">
-        </label>
-           </div>
-        <div>
-        <label>
-            <p>password</p>
-            <input type="password" required value="">
-        </label>
-        </div>
-        <div><input type="range" min="1" max="10"></div>
-        <p>What does HTML stand for?</p>
-        <div><input type="checkbox">Hyperlinks and Text Markup Language</div>
-        <div><input type="checkbox">Home Tool Markup Language</div>
-        <div><input type="checkbox">Hyper Text Markup Language</div>
-        <p>What does HTML stand for?</p>
-        <div><input type="radio">Hyper Text Translate Protocol</div>
-        <div><input type="radio">Hyper Text Transmission Protocol</div>
-        <div><input type="radio">hyper Text Transfer Protocol</div>
-        <p>Comment</p>
-        <textarea name="text" placeholder="Comment" maxlength="500"></textarea>
-       <div>
-           <p>What does HTML stand for?</p>
-        <select  name="chapter">
-            <option value="Your answer">Your answer<option>
-            <option value="Your answer">Your answer<option>
-            <option value="Your answer">Your answer<option>
-        </select>
-       </div>
-        <div>
-            <br>
-        <button type="send">send</button>
-        </div>
+            <div>
+                <label>
+                    email
+                    <input type="email" name="email" required value="">
+                </label>
+            </div>
+            <div>
+                <label>
+                    password
+                    <input type="password" name="password" required value="">
+                </label>
+            </div>
+            <div><input type="range" min="1" max="10"></div>
+            <p>What does HTML stand for?</p>
+            <div><input type="checkbox">Hyperlinks and Text Markup Language</div>
+            <div><input type="checkbox">Home Tool Markup Language</div>
+            <div><input type="checkbox">Hyper Text Markup Language</div>
+            <p>What does HTML stand for?</p>
+            <div><input type="radio">Hyper Text Translate Protocol</div>
+            <div><input type="radio">Hyper Text Transmission Protocol</div>
+            <div><input type="radio">hyper Text Transfer Protocol</div>
+            <p>Comment</p>
+            <textarea name="text" placeholder="Comment" maxlength="500"></textarea>
+            <div>
+                <p>What does HTML stand for?</p>
+                <select name="chapter">
+                    <option value="Your answer">Your answer
+                    <option>
+                    <option value="Your answer">Your answer
+                    <option>
+                    <option value="Your answer">Your answer
+                    <option>
+                </select>
+            </div>
+            <div>
+                <br>
+                <button type="submit">send</button>
+            </div>
         </fieldset>
     </form>
 
