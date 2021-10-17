@@ -17,22 +17,17 @@ hr {
     margin: 20px auto 80px;
     height: 4px;
     width: 100px;
+    border: none;
     background-color: #F5BD41;
 }
 
 .icon-container {
     display: flex;
     justify-content: space-between;
-
 }
 
 .icon-container-1 {
     text-align: center;
-}
-
-.icon-container-2 {
-    height: 84px;
-    width: 84px;
 }
 
 .icon-label {
