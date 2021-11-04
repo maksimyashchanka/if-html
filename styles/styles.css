@@ -27,7 +27,6 @@
 
 .container{
     padding: 120px 105px;
-    max-width: 1440px;
 
 
 }
@@ -36,8 +35,8 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    max-width: 1230px;
 }
-
 
 .title {
     font-family: "Roboto", sans-serif;
@@ -85,6 +84,8 @@ div.column:not(:last-child){
     padding-top: 50px;
 
 }
+
+
 
 .footer-background{
     background-color: #10367C;
