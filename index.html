@@ -6,43 +6,44 @@
     <link href="styles/styles.css" rel="stylesheet">
 </head>
 <body>
-<div>
-    <div class="hider-background">
-        <header>
-            <div>
-                <img src="img/logo_vector.svg" class="header-logo" alt="foto">
-            </div>
-            <div class="nav-rapper">
-                <div class="nav-container">
-                    <ul class="nav-link-text">
-                        <li class="link-text" ><a>Stays</a></li>
-                        <li class="link-text"><a>Attractions </a></li>
-                    </ul>
-                    <div class="nav-link-icon">
-                        <img class="link-icon-1" src="/img/Night.svg" alt="icon1">
-                        <img class="link-icon-2" src="img/AccountCircle.svg" alt="icon2">
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="main-container">
-            <h1 class="text-container">Discover stays
-                <br>
-                to live,  work or just relax</h1>
-            <form class=""  action="" method="get">
 
-                <input class="mir" type="text" name="" value="Your destination or hotel name">
-                <input class="date" type="date" name="date" value="Tue 15 Sept — Sat 19 Sept">
-                <input class="number" type="text" name="" value="2 Adults — 0 Children — 1 Room">
-                <button class="search" type="submit">Search</button>
-
-            </form>
-            <div class="app-google">
-                <img class="google-play" src="img/google-play-badge.png" alt="icon">
-                <img class="app-store" src="img/apstore.png" alt="icon">
-            </div>
+<section class="header-container">
+    <header>
+        <div>
+            <img src="img/logo_vector.svg" class="header-logo" alt="Photo">
         </div>
+        <nav class="nav-container">
+            <ul class="nav-link-text">
+                <li class="link-text"><a>Stays</a></li>
+                <li class="link-text"><a>Attractions </a></li>
+            </ul>
+            <div class="nav-link-icon">
+                <img class="link-icon" src="/img/Night.svg" alt="icon1">
+                <img class="link-icon" src="img/AccountCircle.svg" alt="icon2">
+            </div>
+        </nav>
+    </header>
+    <div class="main-container">
+        <h1 class="title-Discover">Discover stays
+            <br>
+            to live, work or just relax</h1>
+        <form class="main-header-form" action="" method="get">
+            <div class="form-block">
+                <input class="destination" type="text" name="" value="New York">
+            </div>
+            <div class="form-block">
+                <input class="date" type="text" name="date" value="Tue 15 Sept — Sat 19 Sept">
+            </div>
+            <div class="form-block">
+                <input class="number" type="text" name="" value="2 Adults — 0 Children — 1 Room">
+            </div>
+            <button class="search" type="submit">Search</button>
+        </form>
     </div>
-</div>
+    <div class="app-google">
+        <img class="google-play" src="img/google-play-badge.png" alt="icon">
+        <img class="app-store" src="img/appstore.png" alt="icon">
+    </div>
+</section>
 </body>
 </html>
