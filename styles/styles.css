@@ -121,6 +121,7 @@ ul {
 .main-header-form {
     display: flex;
     max-width: 1232px;
+    width:100%;
     border: none;
 
 }
