@@ -120,7 +120,6 @@ ul {
 
 .main-form {
 
-
 }
 
 .main-form-block{
@@ -130,11 +129,17 @@ ul {
     border: none;
 }
 
+.form-block{
+    max-width: 1232px;
+}
 
+div input{
+    width: 100%;
+}
 
 .destination {
     height: 64px;
-    width: 450px;
+    width: 420px;
     border-radius: 8px 0 0 8px;
     border: none;
     padding-left: 24px;
@@ -151,7 +156,7 @@ ul {
 
 .date {
     height: 64px;
-    width: 225px;
+    width: 240px;
     text-align: center;
     border: none;
     outline: none;
@@ -171,7 +176,7 @@ ul {
 
 .number {
     height: 64px;
-    width: 270px;
+    width: 260px;
     text-align: center;
     border: none;
     outline: none;
@@ -191,9 +196,8 @@ ul {
     background-color: #3077C6;
     border: none;
     font-size: 24px;
-    position: absolute;
-    top: 564px;
-    right: 124px;
+    
+
 
 }
 
