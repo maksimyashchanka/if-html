@@ -134,6 +134,7 @@ ul {
 }
 
 div input{
+    display: block;
     width: 100%;
 }
 
@@ -196,7 +197,7 @@ div input{
     background-color: #3077C6;
     border: none;
     font-size: 24px;
-    
+
 
 
 }
