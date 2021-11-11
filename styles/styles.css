@@ -29,6 +29,8 @@
 .header-container {
     background: url("../img/header-444.png") no-repeat center;
     background-size: cover;
+    max-width: 1440px;
+    width: 100%;
 
 }
 
@@ -118,8 +120,11 @@ ul {
 
 }
 
-.main-form {
-
+.main-form{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1232px;
+    width: 100%;
 }
 
 .main-form-block{
@@ -131,16 +136,15 @@ ul {
 
 .form-block{
     max-width: 1232px;
+    width: 100%;
+    color: #ffffff;
 }
 
-div input{
-    display: block;
-    width: 100%;
-}
+
 
 .destination {
     height: 64px;
-    width: 420px;
+    width: 460px;
     border-radius: 8px 0 0 8px;
     border: none;
     padding-left: 24px;
@@ -157,7 +161,8 @@ div input{
 
 .date {
     height: 64px;
-    width: 240px;
+    width: 259px;
+    width: 100%;
     text-align: center;
     border: none;
     outline: none;
@@ -169,15 +174,11 @@ div input{
     border-radius: 8px;
 }
 
-.date:focus {
-    border: 3px solid #F5BD41;
-    border-radius: 8px;
-
-}
 
 .number {
     height: 64px;
-    width: 260px;
+    width: 320px;
+    width: 100%;
     text-align: center;
     border: none;
     outline: none;
@@ -192,16 +193,15 @@ div input{
 
 .search {
     height: 64px;
-    width: 192px;
+    width:180px;
+    width: 100%;
     border-radius: 8px;
     background-color: #3077C6;
     border: none;
     font-size: 24px;
 
 
-
 }
-
 .app-google {
     display: flex;
     justify-content: center;

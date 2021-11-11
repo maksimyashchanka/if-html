@@ -30,19 +30,22 @@
         <form class="main-form" action="" method="get">
             <div class="main-form-block">
                 <div class="form-block">
-                    <label>
-                        <input class="destination" type="text" name="" value="New York">
-                    </label>
+                    <div class="block-input">
+                        <input  type="text" name="destination" id="destination" class="destination" required value="">
+                        <label class="block-label" for="destination"> Your destination or hotel name</label>
+                    </div>
                 </div>
                 <div class="form-block">
-                    <label>
-                        <input class="date" type="text" name="date" value="Tue 15 Sept — Sat 19 Sept">
-                    </label>
+                    <div class="block-input">
+                        <input  type="text" name="date" id="date" class="date" required value="">
+                        <label class="block-label" for="date"> Check-in — Check-out</label>
+                    </div>
                 </div>
                 <div class="form-block">
-                    <label>
-                        <input class="number" type="text" name="" value="2 Adults — 0 Children — 1 Room">
-                    </label>
+                    <div class="block-input">
+                        <input  type="text" name="number" id="number" class="number" required value="">
+                        <label class="block-label" for="number">2 Adults — 0 Children — 1 Room</label>
+                    </div>
                 </div>
                 <button class="search" type="submit">Search</button>
             </div>
