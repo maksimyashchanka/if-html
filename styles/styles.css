@@ -37,6 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 51px 105px 208px;
+    position: relative;
 
 }
 
@@ -119,91 +120,71 @@ ul {
 
 }
 
-.main-form{
+.main-form {
     display: flex;
     justify-content: space-between;
-    max-width: 1232px;
+
+
+}
+
+.main-form-block {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1230px;
     width: 100%;
-}
-
-.main-form-block{
-    display: flex;
-    justify-content: space-between;
-    max-width: 1232px;
-    width:100%;
     border: none;
-}
-
-.form-block{
-    max-width: 1232px;
-    color: #ffffff;
-}
-
-
-.block-input{
-width: 100%;
-}
-
-
-
-.destination {
-    height: 64px;
-    width: 450px;
-    border-radius: 8px 0 0 8px;
-    border: none;
-    padding-left: 24px;
-    outline: none;
-    outline-offset: 0;
 
 }
 
-.destination:focus {
-    border: 3px solid #F5BD41;
-    border-radius: 8px;
+.top-section__destination {
+    width: 40%;
+    position: relative;
+
 
 }
 
-.date {
-    height: 64px;
-    width: 240px;
-    text-align: center;
-    border: none;
-    outline: none;
-    outline-offset: 0;
+.top-section__data {
+    width: 20%;
+    position: relative;
 }
 
-.date:focus {
-    border: 3px solid #F5BD41;
-    border-radius: 8px;
+.top-section__number {
+    width: 25%;
+    position: relative;
 }
 
-
-.number {
-    height: 64px;
-    width: 300px;
-    text-align: center;
-    border: none;
-    outline: none;
-    outline-offset: 0;
-
-}
-
-.number:focus {
-    border: 3px solid #F5BD41;
-    border-radius: 8px;
+.top-section__button {
+    width: 15%;
+    position: relative;
 }
 
 .search {
     height: 64px;
-    width:192px;
+    width: 192px;
     border-radius: 8px;
     background-color: #3077C6;
     border: none;
     font-size: 24px;
-
-
+    position: absolute;
+    right: 0;
 
 }
+
+.top-section__input {
+    height: 64px;
+    max-width: 1230px;
+    width: 100%;
+    border: none;
+
+}
+
+.top-section__input:focus {
+    outline-offset: 0;
+    box-shadow: inset 0 0 0 3px #F5BD41;
+    outline: none;
+    border-radius: 8px;
+}
+
 .app-google {
     display: flex;
     justify-content: center;
