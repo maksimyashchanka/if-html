@@ -101,19 +101,12 @@ ul.footer-about > li {
     font-weight: 400;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1024px) {
     .content__wrapper {
         display: flex;
         flex-direction: column;
-        max-width: 1232px;
         margin: 0 auto;
         position: relative;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .title {
-        font-size: 28px;
     }
 }
 
@@ -149,7 +142,6 @@ ul.footer-about > li {
     .container {
         padding: 0;
     }
-
     .row {
         display: flex;
         flex-direction: column;
