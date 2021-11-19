@@ -188,8 +188,6 @@ ul {
 
 .top-section__button {
     position: relative;
-
-
 }
 
 .search {
@@ -298,6 +296,7 @@ ul {
 /*Best*/
 .container-best {
     max-width: 1440px;
+    width: 100%;
     position: relative;
     padding: 65px 105px;
 }
@@ -309,16 +308,35 @@ ul {
     padding-bottom: 105px;
 }
 .block-button {
+    display: flex;
+    justify-content: space-around;
     padding-bottom: 64px;
-    max-width: 630px;
+    max-width: 622px;
     width: 100%;
+
 }
+.Regions{
+    position: relative;
+    width: 30%;
+}
+.Cities{
+    position: relative;
+    width: 30%;
+}
+
+.places{
+    position: relative;
+    width: 40%;
+
+}
+
 .button {
     font-size: 24px;
     border: 1px solid #ffffff;
     height: 64px;
     width: 200px;
     border-radius: 8px;
+    border: none;
 }
 
 .button:hover {
@@ -338,6 +356,11 @@ ul {
     width: 265px;
     padding-bottom: 24px;
 }
+.img-photo:hover::after{
+    content: "";
+
+}
+
 .Maldives {
     text-align: left;
     font-size: 24px;
@@ -412,6 +435,9 @@ ul {
 /*Guests*/
 .container-guests{
     position: relative;
+    max-width: 1440px;
+    width: 100%;
+
 }
 
 .content__wrapper{
@@ -536,7 +562,7 @@ div.column-guests:not(:last-child){
 
 /*Offer*/
 .container {
-    padding: 120px 105px;
+    padding-top: 120px;
 
 }
 .content__wrapper {
@@ -592,7 +618,7 @@ div.column:not(:last-child) {
 .container-background {
     max-width: 1440px;
     background-color: #EAF0F9;
-    padding: 120px 104px;
+    padding:120px 104px 0;
 
 }
 
