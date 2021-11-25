@@ -1,0 +1,354 @@
+@media only screen and (max-width: 480px) {
+
+    .wrapper {
+
+    }
+
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 15px;
+    }
+
+    .hamburger span::after {
+        content: '';
+        display: flex;
+        width: 30px;
+        height: 4px;
+        margin: 5px auto;
+        background-color: #ffffff;
+    }
+
+    .link-text {
+        display: none;
+    }
+
+    .main-container {
+        display: block;
+        padding: 40px 15px;
+    }
+
+    .title-Discover {
+        font-size: 30px;
+        padding-bottom: 40px;
+        color: #ffffff;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+    }
+
+    .form-input__check-in {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .form-check-in {
+        width: 52%;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+
+    .form-check-out {
+        width: 52%;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    .top-section__data {
+        display: none;
+    }
+
+    .main-form-block {
+        flex-direction: column;
+        background-color: #F5BD41;
+
+    }
+
+    .main-form {
+        display: flex;
+    }
+
+    .top-section__input {
+        width: 100%;
+        border: none;
+        text-align: center;
+        border-radius: 8px;
+        padding: 8px;
+    }
+
+
+    .top-section__destination {
+        width: 100%;
+        position: relative;
+        padding: 8px 8px 0;
+        border-radius: 8px;
+
+    }
+
+    .top-section__data {
+        position: relative;
+        border-radius: 8px;
+
+    }
+
+    .top-section__number {
+        width: 100%;
+        position: relative;
+        padding: 0 8px;
+        border-radius: 8px;
+    }
+
+    .top-section__button {
+        padding: 8px;
+
+    }
+
+    .search {
+        width: 100%;
+        padding: 20px;
+        border-radius: 8px;
+        align-items: center;
+
+    }
+
+    .app-google {
+        padding: 0;
+
+
+    }
+
+
+    /*Offer*/
+    .container {
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .title {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+    }
+
+    .row-mobail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+
+    }
+
+    .img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .icon-label {
+        padding-top: 16px;
+    }
+
+    .title {
+        font-size: 28px;
+        padding-top: 24px;
+        padding-bottom: 32px;
+        text-align: center;
+    }
+
+    .title-line::after {
+        content: '';
+        display: none;
+        width: 100px;
+        height: 4px;
+        margin: 20px auto 80px;
+        background-color: #F5BD41;
+    }
+
+    .img {
+        width: 70px;
+        height: 70px;
+    }
+
+    /*Homes*/
+    .container-background {
+        padding: 0;
+    }
+
+    .title-homes {
+        font-size: 28px;
+        padding-top: 24px;
+        padding-bottom: 32px;
+        text-align: center;
+    }
+
+    .img-homes {
+        margin: 0 auto;
+        width: 156px;
+        height: 155px;
+    }
+
+
+    .hidden-column {
+        display: none;
+    }
+
+    /*Best*/
+    .container-best {
+        padding: 0;
+    }
+
+    .title-best {
+        font-size: 28px;
+        padding-top: 24px;
+        padding-bottom: 32px;
+        text-align: center;
+    }
+
+    .img__best {
+        width: 150px;
+        height: 151px;
+    }
+
+    .label-1 {
+        font-size: 12px;
+    }
+
+    .label-2 {
+        font-size: 12px;
+        height: 28px;
+        width: 156px;
+        text-align: right;
+    }
+
+    /*Guests*/
+    .container-guests {
+        position: relative;
+        text-align: center;
+        background-color: #EAF0F9;
+        padding: 0 40px;
+    }
+
+    .container__wrapper__mobail {
+        padding: 0;
+    }
+
+    .title-guests__reviews {
+        display: block;
+        font-size: 28px;
+        padding-top: 24px;
+        padding-bottom: 32px;
+        text-align: center;
+    }
+
+    .Ubud {
+        padding: 24px 0 0 0;
+        font-size: 15px;
+    }
+
+    .indonesia {
+        font-size: 15px;
+        padding: 16px 0 0 0;
+    }
+
+    .user-block {
+        padding: 24px 0 0 0;
+    }
+
+    .block-number {
+        position: absolute;
+        top: 415px;
+        right: 0;
+
+    }
+
+    .title-best-bottom {
+        padding: 17px 11px 64px 0;
+    }
+
+    .title-guests {
+        display: none;
+    }
+
+
+    .block-number {
+        position: absolute;
+
+    }
+
+
+    /*user*/
+    .container-sing {
+        display: flex;
+        background-color: #ffffff;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .user-icon__img {
+        display: none;
+    }
+
+
+    /*footer*/
+    .footer-background {
+        padding: 100px 100px;
+        position: relative;
+    }
+
+    .footer-column__footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-logo {
+        fill: #ffffff;
+    }
+
+    .footer-column__foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    ul li {
+        display: flex;
+    }
+
+    .footer__foot {
+        padding-top: 150px;
+        color: #ffffff;
+    }
+
+    .footer-column {
+        display: none;
+    }
+
+    .footer-2020 {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
