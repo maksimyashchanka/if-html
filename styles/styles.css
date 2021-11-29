@@ -598,7 +598,7 @@ div.column:not(:last-child) {
 .block-number {
     position: absolute;
     right: 11px;
-    bottom: 240px;
+    bottom: 265px;
 }
 
 .number {
