@@ -1,8 +1,6 @@
 @media only screen and (max-width: 480px) {
 
-    .wrapper {
 
-    }
 
     .header__nav {
         display: flex;
@@ -199,9 +197,7 @@
     }
 
 
-    .hidden-column {
-        display: none;
-    }
+
 
     /*Best*/
     .container-best {
